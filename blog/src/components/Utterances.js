@@ -4,7 +4,6 @@ const src = 'https://utteranc.es/client.js';
 
 
 const Utterances = React.memo(({repo}) => {
-    console.log(repo);
 
     const containerRef = createRef();
 
