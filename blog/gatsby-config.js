@@ -3,7 +3,7 @@ module.exports = {
     title: `Dahuin's Blog`,
     description: ``,
     author: `최정혜`,
-    siteUrl:`https://DahuinWorld.github.io`,
+    siteUrl:`https://DahuinWorld.github.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
