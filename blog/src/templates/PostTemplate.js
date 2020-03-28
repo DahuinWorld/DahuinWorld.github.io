@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
+import Utterances from "../components/Utterances";
 
 const PostTemplate = React.memo(props => {
     const { title, date, html } = props.pageContext;
@@ -9,17 +10,11 @@ const PostTemplate = React.memo(props => {
             <h4>{date}</h4>
             <hr />
             <div dangerouslySetInnerHTML={{__html: html}} />
+            <Utterances repo="DahuinWorld/blog-Issue"/>
         </Layout>
+        
     );
 
-
-    // return (
-    //     <Layout>
-    //         <code>
-    //             <pre>{JSON.stringify(props, null, 4)}</pre>
-    //         </code>
-    //     </Layout>
-    // );
 });
 
 PostTemplate.displayName = 'PostTemplate';

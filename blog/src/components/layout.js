@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+// import Utterances from "./Utterances"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -34,6 +35,14 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <script src="https://utteranc.es/client.js" 
+        repo="DahuinWorld/blog-Issue" 
+        issue-term="[##_article_rep_link" 
+        theme="github-light" 
+        crossorigin="anonymous" 
+        async>  
+        </script>
+
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
