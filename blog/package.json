@@ -38,8 +38,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/DahuinWorld/DahuinWorld.github.io.git"
   },
+  "homepage": "https://DahuinWorld.github.io",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
